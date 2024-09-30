@@ -1,0 +1,26 @@
+body {
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    /* Top gradient */
+      url("https://static.bnn.de/mittelbaden/buehl/Kreuzung.jpg-5eyi8l/alternates/LANDSCAPE_16x9_BASE/Kreuzung.jpg"); /* Image */
+  background-repeat: no-repeat; /* Apply no-repeat to all background elements */
+  background-position: center; /* Center the background */
+}
+
+.custom-link {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.custom-link:hover {
+  background-color: #3730a3; /* Dunkleres Indigo */
+}

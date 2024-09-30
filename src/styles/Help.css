@@ -1,0 +1,47 @@
+.Box {
+  padding: 20px;
+  background-color: rgba(30, 30, 30, 0.9); /* Dunklerer Hintergrund */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #ffffff; /* Weißer Text für bessere Lesbarkeit */
+}
+
+.faq-container {
+  margin-top: 20px;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  border: 1px solid #444; /* Dunklere Rahmenfarbe */
+  border-radius: 4px;
+}
+
+.faq-question {
+  background-color: #333; /* Dunkler Hintergrund für Fragen */
+  padding: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ffffff; /* Weißer Text für Fragen */
+  height: 50px; /* Feste Höhe für Fragen */
+  display: flex;
+  align-items: center; /* Vertikale Ausrichtung des Textes */
+}
+
+.faq-answer {
+  background-color: #222; /* Noch dunklerer Hintergrund für Antworten */
+  border-top: 1px solid #444; /* Dunklere Trennlinie */
+  color: #cccccc; /* Hellgrauer Text für Antworten */
+  max-height: 0; /* Start mit max-height von 0 */
+  overflow: hidden; /* Versteckt die Antwort, wenn sie nicht angezeigt wird */
+  padding: 0 15px; /* Padding links und rechts */
+  transition: max-height 0.3s ease, padding 0.3s ease; /* Übergang für max-height und padding */
+}
+
+.faq-answer.active {
+  max-height: 500px; /* Setze eine große max-height, um sicherzustellen, dass die Antwort nicht abgeschnitten wird */
+  padding: 15px; /* Padding hinzufügen, wenn aktiv */
+}
+
+.LinkContainerHelp {
+  margin-top: 50px;
+}

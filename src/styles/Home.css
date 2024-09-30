@@ -1,0 +1,39 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid #444;
+  text-align: left;
+  padding: 12px;
+}
+
+tr:nth-child(even) {
+  background-color: #222;
+}
+tr:nth-child(odd) {
+  background-color: #222;
+}
+
+.LinkContainer {
+  margin-top: 100px;
+}
+
+.custom-link-home {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #4f46e5;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.custom-link-home:hover {
+  background-color: #3730a3; /* Dunkleres Indigo */
+}
