@@ -1,3 +1,6 @@
+h1 {
+}
+
 table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
@@ -35,5 +38,9 @@ tr:nth-child(odd) {
 }
 
 .custom-link-home:hover {
-  background-color: #3730a3; /* Dunkleres Indigo */
+  background-color: #3730a3;
+}
+
+.dbheader {
+  margin-bottom: 100px;
 }
